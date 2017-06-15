@@ -1,0 +1,5 @@
+curl -i -X POST \
+  http://localhost:4545/payload \
+  -H 'cache-control: no-cache' \
+  -H 'postman-token: 851c94d8-d532-4a65-e10c-99397da50a82' \
+  -H 'x-github-event: push'

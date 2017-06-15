@@ -1,0 +1,205 @@
+curl -i -X POST \
+  http://localhost:4545/payload \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 6f936062-dd62-7af9-eff3-c25b5a79898e' \
+  -H 'x-github-event: status' \
+  -H 'x-hub-signature: sha1=ee3bdba1c15432f0bebc4fe1100eafdac4583f13' \
+  -d '{
+  "id": 1291733913,
+  "sha": "b0dae049fed0321eec2a7cbb7461a67f25d610c3",
+  "name": "dskeppstedt/lista",
+  "target_url": "https://travis-ci.org/dskeppstedt/lista/builds/241813065?utm_source=github_status&utm_medium=notification",
+  "context": "continuous-integration/travis-ci/push",
+  "description": "The Travis CI build passed",
+  "state": "success",
+  "commit": {
+    "sha": "b0dae049fed0321eec2a7cbb7461a67f25d610c3",
+    "commit": {
+      "author": {
+        "name": "David",
+        "email": "david.skeppstedt@gmail.com",
+        "date": "2017-06-11T20:34:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-06-11T20:34:26Z"
+      },
+      "message": "Update readme",
+      "tree": {
+        "sha": "04cfb5f58161c562f14a1989ef449be4ecc595e5",
+        "url": "https://api.github.com/repos/dskeppstedt/lista/git/trees/04cfb5f58161c562f14a1989ef449be4ecc595e5"
+      },
+      "url": "https://api.github.com/repos/dskeppstedt/lista/git/commits/b0dae049fed0321eec2a7cbb7461a67f25d610c3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/dskeppstedt/lista/commits/b0dae049fed0321eec2a7cbb7461a67f25d610c3",
+    "html_url": "https://github.com/dskeppstedt/lista/commit/b0dae049fed0321eec2a7cbb7461a67f25d610c3",
+    "comments_url": "https://api.github.com/repos/dskeppstedt/lista/commits/b0dae049fed0321eec2a7cbb7461a67f25d610c3/comments",
+    "author": {
+      "login": "dskeppstedt",
+      "id": 1273768,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1273768?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dskeppstedt",
+      "html_url": "https://github.com/dskeppstedt",
+      "followers_url": "https://api.github.com/users/dskeppstedt/followers",
+      "following_url": "https://api.github.com/users/dskeppstedt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dskeppstedt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dskeppstedt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dskeppstedt/subscriptions",
+      "organizations_url": "https://api.github.com/users/dskeppstedt/orgs",
+      "repos_url": "https://api.github.com/users/dskeppstedt/repos",
+      "events_url": "https://api.github.com/users/dskeppstedt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dskeppstedt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "38747544f832720eb1f851cc66658fd06920d46d",
+        "url": "https://api.github.com/repos/dskeppstedt/lista/commits/38747544f832720eb1f851cc66658fd06920d46d",
+        "html_url": "https://github.com/dskeppstedt/lista/commit/38747544f832720eb1f851cc66658fd06920d46d"
+      }
+    ]
+  },
+  "branches": [
+    {
+      "name": "master",
+      "commit": {
+        "sha": "b0dae049fed0321eec2a7cbb7461a67f25d610c3",
+        "url": "https://api.github.com/repos/dskeppstedt/lista/commits/b0dae049fed0321eec2a7cbb7461a67f25d610c3"
+      }
+    }
+  ],
+  "created_at": "2017-06-11T20:36:55Z",
+  "updated_at": "2017-06-11T20:36:55Z",
+  "repository": {
+    "id": 93868659,
+    "name": "lista",
+    "full_name": "dskeppstedt/lista",
+    "owner": {
+      "login": "dskeppstedt",
+      "id": 1273768,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1273768?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dskeppstedt",
+      "html_url": "https://github.com/dskeppstedt",
+      "followers_url": "https://api.github.com/users/dskeppstedt/followers",
+      "following_url": "https://api.github.com/users/dskeppstedt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dskeppstedt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dskeppstedt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dskeppstedt/subscriptions",
+      "organizations_url": "https://api.github.com/users/dskeppstedt/orgs",
+      "repos_url": "https://api.github.com/users/dskeppstedt/repos",
+      "events_url": "https://api.github.com/users/dskeppstedt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dskeppstedt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/dskeppstedt/lista",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/dskeppstedt/lista",
+    "forks_url": "https://api.github.com/repos/dskeppstedt/lista/forks",
+    "keys_url": "https://api.github.com/repos/dskeppstedt/lista/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/dskeppstedt/lista/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/dskeppstedt/lista/teams",
+    "hooks_url": "https://api.github.com/repos/dskeppstedt/lista/hooks",
+    "issue_events_url": "https://api.github.com/repos/dskeppstedt/lista/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/dskeppstedt/lista/events",
+    "assignees_url": "https://api.github.com/repos/dskeppstedt/lista/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/dskeppstedt/lista/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/dskeppstedt/lista/tags",
+    "blobs_url": "https://api.github.com/repos/dskeppstedt/lista/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/dskeppstedt/lista/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/dskeppstedt/lista/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/dskeppstedt/lista/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/dskeppstedt/lista/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/dskeppstedt/lista/languages",
+    "stargazers_url": "https://api.github.com/repos/dskeppstedt/lista/stargazers",
+    "contributors_url": "https://api.github.com/repos/dskeppstedt/lista/contributors",
+    "subscribers_url": "https://api.github.com/repos/dskeppstedt/lista/subscribers",
+    "subscription_url": "https://api.github.com/repos/dskeppstedt/lista/subscription",
+    "commits_url": "https://api.github.com/repos/dskeppstedt/lista/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/dskeppstedt/lista/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/dskeppstedt/lista/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/dskeppstedt/lista/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/dskeppstedt/lista/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/dskeppstedt/lista/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/dskeppstedt/lista/merges",
+    "archive_url": "https://api.github.com/repos/dskeppstedt/lista/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/dskeppstedt/lista/downloads",
+    "issues_url": "https://api.github.com/repos/dskeppstedt/lista/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/dskeppstedt/lista/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/dskeppstedt/lista/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/dskeppstedt/lista/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/dskeppstedt/lista/labels{/name}",
+    "releases_url": "https://api.github.com/repos/dskeppstedt/lista/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/dskeppstedt/lista/deployments",
+    "created_at": "2017-06-09T14:47:41Z",
+    "updated_at": "2017-06-09T14:48:08Z",
+    "pushed_at": "2017-06-11T20:34:27Z",
+    "git_url": "git://github.com/dskeppstedt/lista.git",
+    "ssh_url": "git@github.com:dskeppstedt/lista.git",
+    "clone_url": "https://github.com/dskeppstedt/lista.git",
+    "svn_url": "https://github.com/dskeppstedt/lista",
+    "homepage": null,
+    "size": 6,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Shell",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "forks": 0,
+    "open_issues": 1,
+    "watchers": 0,
+    "default_branch": "master"
+  },
+  "sender": {
+    "login": "dskeppstedt",
+    "id": 1273768,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1273768?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dskeppstedt",
+    "html_url": "https://github.com/dskeppstedt",
+    "followers_url": "https://api.github.com/users/dskeppstedt/followers",
+    "following_url": "https://api.github.com/users/dskeppstedt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dskeppstedt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dskeppstedt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dskeppstedt/subscriptions",
+    "organizations_url": "https://api.github.com/users/dskeppstedt/orgs",
+    "repos_url": "https://api.github.com/users/dskeppstedt/repos",
+    "events_url": "https://api.github.com/users/dskeppstedt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dskeppstedt/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}'
